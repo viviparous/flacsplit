@@ -40,7 +40,7 @@ use strict;
 use IO::File;
 use File::Basename;
 use Getopt::Long;
-use POSIX qw(tmpnam);
+use File::Temp; #replace deprecated POSIX tmpnam function
 
 ###############################################################################
 # main                                                                        #
